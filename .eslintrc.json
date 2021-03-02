@@ -1,3 +1,5 @@
+// regras eslint
+// https://www.npmjs.com/package/@typescript-eslint/eslint-plugin
 {
   "root": true,
   "ignorePatterns": ["**/node_modules/**/*"],
