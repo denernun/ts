@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import ProductRouter from './app/modules/produtos/router';
+import ProductRouter from '../app/modules/produtos/router';
 
 class Routes {
   static define(router: Router): Router {
