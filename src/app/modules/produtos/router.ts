@@ -4,9 +4,9 @@ const router = Router();
 
 router.get('/', (req: Request, res: Response) => {
   res.json({
-    _id: 'ABC123',
-    name: 'Product Name',
-    price: 28.9,
+    _id: 'id',
+    name: 'name',
+    price: 1.0,
   });
 });
 

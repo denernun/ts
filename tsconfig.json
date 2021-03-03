@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es2019",
-    "moduleResolution": "node",
-    "module": "commonjs",
-    "lib": ["es2019"],
+    "target": "ES2019",
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+    "lib": ["ES2019"],
     "sourceMap": true,
     "outDir": "./build",
     "rootDir": "./src",
@@ -22,6 +22,7 @@
     "noUnusedLocals": false,
     "noImplicitAny": false,
     "noLib": false,
+    "incremental": true,
     "typeRoots": ["node_modules/@types"],
     "paths": {
       "@src/*": ["./src/*"],

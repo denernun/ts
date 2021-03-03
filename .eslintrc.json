@@ -16,7 +16,7 @@
         "project": ["tsconfig.json"],
         "createDefaultProgram": true
       },
-      "plugins": ["@typescript-eslint", "prettier"],
+      "plugins": ["@typescript-eslint/eslint-plugin"],
       "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/eslint-recommended",
