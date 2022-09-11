@@ -1,5 +1,3 @@
-/// <reference path="abstractFactory.ts" />
-
 namespace AbstractFactoryPattern {
   export namespace Demo {
     export function show() {

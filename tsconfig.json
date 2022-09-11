@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES2019",
+    "target": "es6",
     "moduleResolution": "Node",
     "module": "CommonJS",
-    "lib": ["ES2019"],
     "sourceMap": true,
-    "outDir": "./build",
+    "outDir": "./dist",
     "rootDir": "./src",
     "baseUrl": "./",
     "strict": true,
@@ -28,7 +27,5 @@
       "@src/*": ["./src/*"]
     },
     "rootDirs": ["./src"]
-  },
-  "include": ["./src/**/*.ts"],
-  "exclude": ["./node_modules/*", "build", "./coverage/*"]
+  }
 }

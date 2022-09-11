@@ -2,7 +2,7 @@
   "root": true,
   "ignorePatterns": ["**/node_modules/**/*"],
   "env": {
-    "es2020": true,
+    "es6": true,
     "node": true,
     "jest": true
   },
@@ -29,7 +29,7 @@
         "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/no-empty-interface": "error",
         "@typescript-eslint/explicit-module-boundary-types": "off",
-        "@typescrict-eslint/no-namespace": 0
+        "@typescrict-eslint/no-namespace": { "allowDeclarations": true, "allowDeclarationsInFiles": true }
       }
     }
   ]
