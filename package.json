@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/denernun/ts#readme",
   "dependencies": {
-    "dotenv": "^16.0.2"
+    "dotenv": "^16.0.2",
+    "rxjs": "^7.5.6"
   },
   "devDependencies": {
     "@types/eslint": "^8.4.6",
