@@ -4,15 +4,10 @@
     {
       "name": "Node",
       "request": "launch",
-      "runtimeArgs": [
-        "run-script",
-        "start"
-      ],
+      "runtimeArgs": ["run-script", "start"],
       "runtimeExecutable": "npm",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "type": "pwa-node"
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
     }
   ]
 }

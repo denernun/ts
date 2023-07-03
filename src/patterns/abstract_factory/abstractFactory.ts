@@ -2,6 +2,7 @@ namespace AbstractFactoryPattern {
   export interface AbstractProductA {
     methodA(): string;
   }
+
   export interface AbstractProductB {
     methodB(): number;
   }
