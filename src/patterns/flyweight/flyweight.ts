@@ -4,26 +4,8 @@ namespace FlyweightPattern {
   }
 
   export class ConcreteFlyweight implements Flyweight {
-    private instrinsicState: string;
-
-    constructor(instrinsicState: string) {
-      this.instrinsicState = instrinsicState;
-    }
-
     public operation(s: string): void {
       console.log('`operation` of ConcreteFlyweight', s, ' is being called!');
-    }
-  }
-
-  export class UnsharedConcreteFlyweight implements Flyweight {
-    private allState: number;
-
-    constructor(allState: number) {
-      this.allState = allState;
-    }
-
-    public operation(s: string): void {
-      console.log('`operation` of UnsharedConcreteFlyweight', s, ' is being called!');
     }
   }
 
@@ -34,7 +16,7 @@ namespace FlyweightPattern {
 
     public getFlyweight(key: string): Flyweight {
       if (this.fliesMap[key] === undefined || null) {
-        this.fliesMap[key] = new ConcreteFlyweight(key);
+        this.fliesMap[key] = new ConcreteFlyweight();
       }
       return this.fliesMap[key];
     }

@@ -1,9 +1,9 @@
 namespace BuilderPattern {
   export class UserBuilder {
     private name: string;
-    private age: number;
-    private phone: string;
-    private address: string;
+    private age: number = 0;
+    private phone: string = '';
+    private address: string = '';
 
     constructor(name: string) {
       this.name = name;

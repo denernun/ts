@@ -16,14 +16,13 @@ namespace FactoryMethodPattern {
   }
 
   export namespace ProductFactory {
-    export function createProduct(type: string): AbstractProduct {
+    export function createProduct(type: string): AbstractProduct | undefined {
       if (type === 'A') {
         return new ConcreteProductA();
       } else if (type === 'B') {
         return new ConcreteProductB();
       }
-
-      return null;
+      return undefined;
     }
   }
 }
